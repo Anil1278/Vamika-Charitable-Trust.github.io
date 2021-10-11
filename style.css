@@ -259,7 +259,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "what i provide to Poor child";
+
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
@@ -293,9 +293,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 /* skills section styling */
-.skills .title::after{
-    content: "Provide Food For Poor Child";
-}
+
 .skills .skills-content .column{
     width: calc(50% - 30px);
 }
