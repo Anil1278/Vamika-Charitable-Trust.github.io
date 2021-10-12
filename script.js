@@ -36,12 +36,6 @@ $(document).ready(function(){
         backSpeed: 80,
         loop: true
     });
-    var typed = new Typed(".typing-2", {
-        strings: ["Donating to the people", "Serving to the people"],
-        typeSpeed: 150,
-        backSpeed: 80,
-        loop: true
-    });
     // owl carousel script
     $('.carousel').owlCarousel({
         margin: 20,
