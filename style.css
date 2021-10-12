@@ -97,7 +97,7 @@ section .title::after{
 }
 .navbar .logo a span{
     color: crimson;
-    transition: all 0.3s ease;
+    transition: all 0.10s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
