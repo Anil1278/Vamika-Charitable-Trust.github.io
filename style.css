@@ -97,7 +97,7 @@ section .title::after{
 }
 .navbar .logo a span{
     color: crimson;
-    transition: all 0.10s ease;
+    transition: all 0.4s ease;
 }
 .navbar.sticky .logo a span{
     color: #fff;
@@ -263,7 +263,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background:url("images/food.jpg") no-repeat center;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
