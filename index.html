@@ -357,58 +357,6 @@
     <footer>
         <span>Created By <a href="https://www.instagram.com/anil_hadayekar007/">Anil hadayekar ;</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
-<<<<<<< HEAD
-=======
-  <!-- /contact1 -->
-  
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script
-src="https://code.jquery.com/jquery-2.2.4.min.js"
-integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-crossorigin="anonymous"></script>
-<script src="https://smtpjs.com/v3/smtp.js"></script>
- 
-<script>  
-
-     function sendmail(){
-    
-			var name = $('#Name').val();
-			var mobile = $('#Mobile').val();
-			var email = $('#Email').val();
-            var subject = $('#Subject').val();
-            var message = $('#Message').val();
-
-			// var body = $('#body').val();
-
-			var Body='Name: '+name+'<br>Mobile: '+mobile+'<br>Email: '+email+'<br>Subject: '+subject+'<br>Message: '+message;
-			//console.log(name, phone, email, message);
-
-			Email.send({
-        SecureToken:"fbf31702-bb7f-4a4e-9c1c-4ccf17ee777f",
-				To: 'anilhadayekar2004@gmail.com',
-				From: "vamikacontact@gmail.com",
-				Subject: "New message on contact from "+name,
-				Body: Body
-			}).then(
-				message =>{
-					//console.log (message);
-					if(message=='OK'){
-					alert('Your mail has been send. Thank you for connecting Vamika Charitable Trust.');
-					}
-					else{
-						console.error (message);
-						alert('There is error at sending message. ')
-						
-					}
-
-				}
-			);
-
-
-
-		}
-
->>>>>>> dc85cd9c86d0a04d6c42e976104a0f23cdc4fe98
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
