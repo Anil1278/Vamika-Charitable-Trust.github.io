@@ -31,7 +31,7 @@ $(document).ready(function(){
     });
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["Donating to the people", "Serving to the people"],
+        strings: ["Helping Hand ♡", "Helping Hand ♡"],
         typeSpeed: 150,
         backSpeed: 80,
         loop: true
